@@ -824,16 +824,17 @@ if(peruserin == userobjin ){
   $('.foi').show();
 for(a=0;a<employment_upload_array.length;a++){
 
-  employimg_obj = employment_upload_array[a];
+employimg_obj = employment_upload_array[a];
 // alert(addressimg_obj.document_name);
 
- var multi_type_id_insu=employimg_obj.verification_type_id;
-  //var empimgempl=employimg_obj.verification_type_id;
-  var empidempl=employimg_obj.verification_master_id;
-   var profile=employimg_obj.profile;
+var multi_type_id_insu=employimg_obj.verification_type_id;
+//var empimgempl=employimg_obj.verification_type_id;
+var empidempl=employimg_obj.verification_master_id;
+var profile=employimg_obj.profile;
 
 
-  if(empidempl == verification_user_id && multi_type_id_insu == '105'){
+
+if(empidempl == verification_user_id && multi_type_id_insu == '105'){
 
 var oneemp=employimg_obj.document;
 //alert(oneemp+'oneemp');
